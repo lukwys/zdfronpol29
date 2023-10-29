@@ -1,0 +1,22 @@
+.wrapper {
+  padding: 0 calc(1.5rem * .5);
+  margin: 0 auto;
+}
+
+@media (min-width: 420px) {
+  .wrapper {
+
+  }
+}
+
+@media (min-width: 420px) {
+  .faq-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .faq-column {
+    width: 50%;
+  }
+}
+
